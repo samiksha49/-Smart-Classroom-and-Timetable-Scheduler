@@ -132,7 +132,7 @@ CREATE TABLE timetable (
 ```
 
 
-## LOGIN PAGE WIREFRAME
+## PAGE LAYOUT
 
 +--------------------------------------------------+
 |              SMART CLASSROOM                     |
@@ -150,7 +150,7 @@ CREATE TABLE timetable (
 +--------------------------------------------------+
 
 
-## ADMIN DASHBOARD WIREFRAME
+## Admin Dashboard
 
 +--------------------------------------------------+
 |                    DASHBOARD                     |
@@ -171,7 +171,7 @@ CREATE TABLE timetable (
 +--------------------------------------------------+
 
 
-## TIMETABLE PAGE WIREFRAME
+## Timetable Page
 
 +--------------------------------------------------+
 |                VIEW TIMETABLE                    |

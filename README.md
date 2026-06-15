@@ -50,3 +50,19 @@ This diagram illustrates the system’s overall use case structure.
 
 ![Use Case Diagram](./file_0000000047a0720ba47f8fcd0bf30db7.png)
 
+## TABLE LIST
+
+The following tables are used in the system database design:
+
+| S.No | Table Name            | Purpose |
+|------|-----------------------|---------|
+| 1    | Department            | Stores department details |
+| 2    | Faculty               | Stores faculty information |
+| 3    | Subject               | Stores subject details |
+| 4    | Faculty_Subject       | Maps faculty with subjects |
+| 5    | Classroom             | Stores classroom details |
+| 6    | Timetable             | Manages class schedule |
+| 7    | Faculty_Availability  | Tracks faculty availability |
+| 8    | Leave_Request         | Manages leave requests |
+| 9    | Training_Course       | Stores training courses |
+| 10   | Conflict_Log          | Records scheduling conflicts |

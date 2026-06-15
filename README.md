@@ -131,8 +131,9 @@ CREATE TABLE timetable (
 );
 ```
 
+# SMART CLASSROOM & TIMETABLE SCHEDULER
 
-## PAGE LAYOUT
+## LOGIN PAGE WIREFRAME
 
 +--------------------------------------------------+
 |              SMART CLASSROOM                     |

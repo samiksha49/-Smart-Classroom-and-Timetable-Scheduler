@@ -66,3 +66,9 @@ The following tables are used in the system database design:
 | 8    | Leave_Request         | Manages leave requests |
 | 9    | Training_Course       | Stores training courses |
 | 10   | Conflict_Log          | Records scheduling conflicts |
+
+##  ER DIAGRAM
+
+This diagram represents the database structure and relationships between entities.
+
+![ER Diagram](./file_00000000d748720bbe92bd0fd23f3205.png)

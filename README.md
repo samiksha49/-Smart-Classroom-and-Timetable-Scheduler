@@ -11,9 +11,13 @@
 ## OBJECTIVE
 
 🔸 To automate the timetable generation process.
+
 🔸 To avoid faculty scheduling conflicts.
+
 🔸 To efficiently allocate classrooms and faculty members.
+
 🔸 To reduce manual effort in timetable management.
+
 🔸 To optimize the utilization of available resources.
 
 ## USER AND MODULE IDENTIFICATION
@@ -21,15 +25,22 @@
 ### USER
 
 🔸Admin
+
 🔸Faculty
+
 🔸Student
 
 ### MODULES
 
 🔸Login
+
 🔸Faculty Management
+
 🔸 Subject Management
+
 🔸 Timetable Generation
+
 🔸 Conflict Detection
+
 🔸 Timetable View
 

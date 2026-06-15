@@ -49,3 +49,18 @@
 This diagram illustrates the system’s overall use case structure.
 
 ![Use Case Diagram](./file_0000000047a0720ba47f8fcd0bf30db7.png)
+
+## TABLE LIST
+
+| S.No | Table Name |
+|-------|------------|
+| 1 | Department |
+| 2 | Faculty |
+| 3 | Subject |
+| 4 | Faculty_Subject |
+| 5 | Classroom |
+| 6 | Timetable |
+| 7 | Faculty_Availability |
+| 8 | Leave_Request |
+| 9 | Training_Course |
+| 10 | Conflict_Log |

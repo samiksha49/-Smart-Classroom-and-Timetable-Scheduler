@@ -46,13 +46,13 @@
 
 ## USE CASE DIAGRAM
 
-This diagram illustrates the system’s overall use case structure.
+🔸This diagram illustrates the system’s overall use case structure.
 
 ![Use Case Diagram](./file_0000000047a0720ba47f8fcd0bf30db7.png)
 
 ## TABLE LIST
 
-The following tables are used in the system database design:
+🔸The following tables are used in the system database design:
 
 | S.No | Table Name            | Purpose |
 |------|-----------------------|---------|
@@ -69,6 +69,6 @@ The following tables are used in the system database design:
 
 ##  ER DIAGRAM
 
-This diagram represents the database structure and relationships between entities.
+🔸This diagram represents the database structure and relationships between entities.
 
 ![ER Diagram](./file_00000000d748720bbe92bd0fd23f3205.png)

@@ -242,5 +242,8 @@ src/
 
 ## LOGIN PAGE DEVELOPMENT
 
-🔸The login page was developed to provide secure access for Admin, Faculty, and Students. Users can enter their credentials and access the system based on their role.
+🔸The login page was developed to provide secure access for Admin, Faculty, and Students. Users can enter their credentials and access the system based on their role. 
 
+## USER REGISTRATION MODULE
+
+🔸The user registration module allows the administrator to add faculty and student accounts into the system for timetable access and management.

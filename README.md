@@ -44,3 +44,8 @@
 
 🔸 Timetable View
 
+## USE CASE DIAGRAM
+
+This diagram illustrates the system’s overall use case structure.
+
+![Use Case Diagram](./file_0000000047a0720ba47f8fcd0bf30db7.png)

@@ -72,3 +72,62 @@
 🔸This diagram represents the database structure and relationships between entities.
 
 ![ER Diagram](./file_00000000d748720bbe92bd0fd23f3205.png)
+## SQL SCHEMA
+
+### DEPARTMENT TABLE
+
+```sql
+CREATE TABLE department (
+    department_id INT PRIMARY KEY,
+    department_name VARCHAR(100)
+);
+```
+
+### FACULTY TABLE
+
+```sql
+CREATE TABLE faculty (
+    faculty_id INT PRIMARY KEY,
+    faculty_name VARCHAR(100),
+    department_id INT,
+    FOREIGN KEY (department_id) REFERENCES department(department_id)
+);
+```
+
+### SUBJECT TABLE
+
+```sql
+CREATE TABLE subject (
+    subject_id INT PRIMARY KEY,
+    subject_name VARCHAR(100),
+    department_id INT,
+    FOREIGN KEY (department_id) REFERENCES department(department_id)
+);
+```
+
+### CLASSROOM TABLE
+
+```sql
+CREATE TABLE classroom (
+    classroom_id INT PRIMARY KEY,
+    room_number VARCHAR(20),
+    capacity INT
+);
+```
+
+### TIMETABLE TABLE
+
+```sql
+CREATE TABLE timetable (
+    timetable_id INT PRIMARY KEY,
+    faculty_id INT,
+    subject_id INT,
+    classroom_id INT,
+    day VARCHAR(20),
+    period INT,
+    FOREIGN KEY (faculty_id) REFERENCES faculty(faculty_id),
+    FOREIGN KEY (subject_id) REFERENCES subject(subject_id),
+    FOREIGN KEY (classroom_id) REFERENCES classroom(classroom_id)
+);
+```
+

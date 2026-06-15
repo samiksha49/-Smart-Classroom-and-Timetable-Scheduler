@@ -74,7 +74,7 @@
 ![ER Diagram](./file_00000000d748720bbe92bd0fd23f3205.png)
 ## SQL SCHEMA
 
-### DEPARTMENT TABLE
+### Department Table
 
 ```sql
 CREATE TABLE department (
@@ -83,7 +83,7 @@ CREATE TABLE department (
 );
 ```
 
-### FACULTY TABLE
+### Faculty Table
 
 ```sql
 CREATE TABLE faculty (
@@ -94,7 +94,7 @@ CREATE TABLE faculty (
 );
 ```
 
-### SUBJECT TABLE
+### Subject Table
 
 ```sql
 CREATE TABLE subject (
@@ -105,7 +105,7 @@ CREATE TABLE subject (
 );
 ```
 
-### CLASSROOM TABLE
+### Classroom Table
 
 ```sql
 CREATE TABLE classroom (
@@ -115,7 +115,7 @@ CREATE TABLE classroom (
 );
 ```
 
-### TIMETABLE TABLE
+### Timetable Table
 
 ```sql
 CREATE TABLE timetable (
@@ -231,9 +231,13 @@ CREATE TABLE timetable (
 
 src/
 ├── components/
+
 ├── pages/
+
 ├── assets/
+
 ├── App.js
+
 └── index.js
 
 ## LOGIN PAGE DEVELOPMENT

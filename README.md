@@ -247,3 +247,29 @@ src/
 ## USER REGISTRATION MODULE
 
 🔸The user registration module allows the administrator to add faculty and student accounts into the system for timetable access and management.
+
+
+
+## DASHBOARD DEVELOPMENT
+
+🔸The dashboard was developed to provide a centralized view of the system. It allows users to access faculty management, subject management, timetable generation, and timetable viewing features from a single interface.
+
+
+
+## CRUD FORM DEVELOPMENT
+
+🔸The CRUD forms were developed to manage faculty, subjects, departments, and classrooms efficiently. Users can create, view, update, and delete records through user-friendly forms.
+
+
+
+## TABLE & SEARCH FEATURES
+
+🔸The table and search features were implemented to display and retrieve faculty, subjects, and timetable records efficiently. Users can search records quickly and view the required information in a structured table format.
+
+
+
+## FRONTEND TESTING
+
+🔸The frontend modules were tested to ensure that all pages, forms, buttons, and navigation links work correctly. The user interface was verified for smooth functionality and proper user interaction.
+
+

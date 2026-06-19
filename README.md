@@ -22,7 +22,7 @@
 
 ## USER AND MODULE IDENTIFICATION
 
-### USER
+### User
 
 🔸Admin
 
@@ -30,7 +30,7 @@
 
 🔸Student
 
-### MODULES
+### Modules
 
 🔸Login
 

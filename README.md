@@ -273,3 +273,40 @@ src/
 🔸The frontend modules were tested to ensure that all pages, forms, buttons, and navigation links work correctly. The user interface was verified for smooth functionality and proper user interaction.
 
 
+## BACKEND SETUP
+
+🔸The backend environment was configured for the Smart Classroom & Timetable Scheduler project. The project structure was created to manage APIs, database connectivity, and business logic efficiently.
+
+
+## DATABASE CONNECTIVITY
+
+🔸The application was successfully connected with the database to store and retrieve information such as faculty details, subjects, classrooms, and timetable records. The connection was established to ensure efficient data management within the system.
+
+
+
+## ENTITY CLASSES
+
+🔸Entity classes were created to represent the database tables in the application. These classes help map the data between the application and the database efficiently.
+
+### Entity Classes
+
+- Department
+- Faculty
+- Subject
+- Classroom
+- Timetable
+
+
+## REPOSITORY CLASSES
+
+🔸Repository classes were created to perform database operations such as storing, retrieving, updating, and deleting records. These classes act as an interface between the application and the database.
+
+### Repository Classes
+
+- DepartmentRepository
+- FacultyRepository
+- SubjectRepository
+- ClassroomRepository
+- TimetableRepository
+
+

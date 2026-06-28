@@ -310,3 +310,39 @@ src/
 - TimetableRepository
 
 
+
+## REST API DEVELOPMENT
+
+🔸REST APIs were developed to perform Create, Read, Update, and Delete (CRUD) operations for faculty, subjects, classrooms, and timetables. These APIs enable seamless communication between the frontend and backend.
+
+
+## AUTHENTICATION MODULE
+
+🔸The authentication module was developed to validate user credentials and provide secure access to the system. The Login API verifies the username and password before granting access to the application.
+
+
+## BACKEND BUSINESS LOGIC
+
+🔸The service layer was developed to handle the core business logic of the application. It processes faculty allocation, subject management, timetable generation, and classroom scheduling before interacting with the database.
+
+
+
+## API TESTING USING POSTMAN
+
+🔸The developed REST APIs were tested using Postman to verify their functionality and accuracy. All API endpoints were validated to ensure proper request handling and successful responses.
+
+
+
+## FRONTEND & BACKEND INTEGRATION
+
+🔸The frontend was successfully integrated with the backend APIs. The application was tested to ensure smooth data flow between the user interface and the database, providing a fully functional system.
+
+
+
+## FINAL TESTING & BUG FIXING
+
+🔸The complete application was tested to verify the functionality of all modules. Minor issues identified during testing were fixed to ensure the system performs reliably and all features work as expected.
+
+
+
+

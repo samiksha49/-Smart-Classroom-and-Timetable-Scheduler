@@ -1,7 +1,6 @@
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import {
-    Anchor,
     Box,
     Button,
     Divider,
@@ -243,14 +242,6 @@ const LoginPage = () => {
                                     {...register("password")}
                                     error={errors.password?.message}
                                 />
-
-                                <Anchor
-                                    size="sm"
-                                    ta="right"
-                                    c={COLORS.PRIMARY}
-                                >
-                                    Forgot password?
-                                </Anchor>
 
                                 <Button
                                     type="submit"

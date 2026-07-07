@@ -151,3 +151,17 @@ The complete application was tested to verify all modules and minor issues were 
 - **Backend:** Python (FastAPI)
 - **Database:** PostgreSQL
 - **API Testing:** Postman
+
+## 🚀 Live Project
+
+Experience the deployed application here:
+
+🔗 https://smart-classroom-and-timetable-scheduler-1862.onrender.com/
+
+### Features
+- 🔐 Secure Login
+- 👨‍🏫 Faculty Management
+- 🎓 Student Management
+- 🏫 Classroom Management
+- 📅 Timetable Scheduling
+- 📊 Dashboard

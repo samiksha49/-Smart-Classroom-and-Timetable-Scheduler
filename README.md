@@ -30,7 +30,7 @@ In many educational institutions, timetable preparation is done manually, which 
 
 The Use Case Diagram illustrates the interactions between the three main users—Admin, Faculty, and Student—and the Smart Classroom & Timetable Scheduler system. It represents the key functionalities available to each user, including timetable generation, timetable viewing, faculty management, subject management, and login.
 
-![Use Case Diagram](./images/usecase_diagram.png)
+![Use Case Diagram](./usecase_diagram.png)
 
 ## Table List
 
@@ -48,7 +48,7 @@ The Use Case Diagram illustrates the interactions between the three main users�
 
 The ER Diagram represents the database structure of the **Smart Classroom & Timetable Scheduler**. It illustrates the entities, attributes, and relationships involved in the system, including **Department, Faculty, Subject, Faculty Availability, Faculty Subject, Classroom, Leave Request, and Timetable**.
 
-![ER Diagram](./images/ER_Diagram.png)
+![ER Diagram](./ER_Diagram.png)
 
 ## SQL Schema
 

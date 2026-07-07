@@ -97,7 +97,7 @@ const AppLayout = () => {
                             fw={700}
                             size="lg"
                         >
-                            College Leave Management
+                            Smart Timetable Generator 
                         </Text>
                     </Group>
 

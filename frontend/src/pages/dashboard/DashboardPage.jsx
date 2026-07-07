@@ -1,7 +1,5 @@
 import {
-    Card,
-    Grid,
-    Group,
+    Center,
     Stack,
     Text,
     Title,
@@ -9,107 +7,19 @@ import {
 
 const DashboardPage = () => {
     return (
-        <Stack gap="lg" p="xl">
-            {/* PAGE HEADER */}
-            <div>
+        <Center h="80vh">
+            <Stack align="center" gap="sm">
                 <Title order={2}>
-                    Dashboard
+                    🚧 Dashboard In Progress
                 </Title>
 
-                <Text c="dimmed">
-                    Welcome back to your leave management dashboard.
+                <Text c="dimmed" ta="center">
+                    This dashboard is currently under development.
+                    <br />
+                    New features will be available soon.
                 </Text>
-            </div>
-
-            {/* STATS */}
-            <Grid>
-                <Grid.Col span={{ base: 12, md: 4 }}>
-                    <Card
-                        shadow="sm"
-                        radius="lg"
-                        padding="lg"
-                    >
-                        <Group justify="space-between">
-                            <div>
-                                <Text
-                                    size="sm"
-                                    c="dimmed"
-                                >
-                                    Total Leaves
-                                </Text>
-
-                                <Title order={2}>
-                                    24
-                                </Title>
-                            </div>
-                        </Group>
-                    </Card>
-                </Grid.Col>
-
-                <Grid.Col span={{ base: 12, md: 4 }}>
-                    <Card
-                        shadow="sm"
-                        radius="lg"
-                        padding="lg"
-                    >
-                        <Group justify="space-between">
-                            <div>
-                                <Text
-                                    size="sm"
-                                    c="dimmed"
-                                >
-                                    Pending Approvals
-                                </Text>
-
-                                <Title order={2}>
-                                    8
-                                </Title>
-                            </div>
-                        </Group>
-                    </Card>
-                </Grid.Col>
-
-                <Grid.Col span={{ base: 12, md: 4 }}>
-                    <Card
-                        shadow="sm"
-                        radius="lg"
-                        padding="lg"
-                    >
-                        <Group justify="space-between">
-                            <div>
-                                <Text
-                                    size="sm"
-                                    c="dimmed"
-                                >
-                                    Approved Leaves
-                                </Text>
-
-                                <Title order={2}>
-                                    16
-                                </Title>
-                            </div>
-                        </Group>
-                    </Card>
-                </Grid.Col>
-            </Grid>
-
-            {/* RECENT ACTIVITY */}
-            <Card
-                shadow="sm"
-                radius="lg"
-                padding="lg"
-            >
-                <Stack>
-                    <Title order={4}>
-                        Recent Activity
-                    </Title>
-
-                    <Text c="dimmed">
-                        No recent activity available.
-                    </Text>
-                </Stack>
-            </Card>
-        </Stack>
+            </Stack>
+        </Center>
     );
 };
 

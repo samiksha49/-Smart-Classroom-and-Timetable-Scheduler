@@ -105,7 +105,7 @@ const AppShellLayout = () => {
               size="lg"
               c={COLORS.primary}
             >
-              College Leave Management
+              Smart Timetable Generator
             </Text>
           </Group>
 

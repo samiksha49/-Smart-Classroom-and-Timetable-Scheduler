@@ -5,7 +5,7 @@ import {
   IconSchool,
   IconBook,
   IconCalendarEvent,
-  IconChalkboard,
+  // IconChalkboard,
   IconMap2,
 } from "@tabler/icons-react";
 
@@ -58,11 +58,11 @@ export const SIDEBAR_CONFIG = {
       icon: IconCalendarEvent,
     },
 
-    {
-      label: "Classroom Schedule",
-      path: "/classroom-schedule",
-      icon: IconChalkboard,
-    },
+    // {
+    //   label: "Classroom Schedule",
+    //   path: "/classroom-schedule",
+    //   icon: IconChalkboard,
+    // },
   ],
 
   FACULTY: [

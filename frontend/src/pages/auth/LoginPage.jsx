@@ -136,7 +136,7 @@ const LoginPage = () => {
                             opacity: 0.9,
                         }}
                     >
-                        COLLEGE LEAVE MANAGEMENT
+                        SMART TIMETABLE GENERATOR
                     </Text>
 
                     <Title
@@ -147,7 +147,7 @@ const LoginPage = () => {
                             fontWeight: 700,
                         }}
                     >
-                        Smart Leave Approval Workflow
+                        Intelligent College Timetable Generator
                     </Title>
 
                     <Text
@@ -157,7 +157,9 @@ const LoginPage = () => {
                             opacity: 0.85,
                         }}
                     >
-                        Streamline student, staff, HOD, and principal leave approvals with a secure and intelligent workflow management system.
+                        Automatically generate conflict-free class schedules for departments,
+                        faculties, batches, classrooms, and laboratories with intelligent
+                        scheduling and workload optimization.
                     </Text>
 
                     <Divider
@@ -176,10 +178,10 @@ const LoginPage = () => {
                         </Text>
 
                         <Stack gap="xs">
-                            <Text>• Role Based Access Control</Text>
-                            <Text>• Multi-Level Leave Approval</Text>
-                            <Text>• Secure OTP Authentication</Text>
-                            <Text>• Automated Email Notifications</Text>
+                            <Text>• Automatic Timetable Generation</Text>
+                            <Text>• Faculty & Classroom Conflict Detection</Text>
+                            <Text>• Smart Laboratory Scheduling</Text>
+                            <Text>• Workload Balancing & Constraint Validation</Text>
                         </Stack>
                     </Box>
                 </Stack>
@@ -215,14 +217,14 @@ const LoginPage = () => {
                                     color: COLORS.TEXT_PRIMARY,
                                 }}
                             >
-                                Welcome Back
+                                Smart Timetable Generator
                             </Title>
 
                             <Text
                                 c={COLORS.TEXT_SECONDARY}
                                 size="sm"
                             >
-                                Login to continue to your dashboard
+                               Login to access the Smart Timetable Management System
                             </Text>
                         </div>
 

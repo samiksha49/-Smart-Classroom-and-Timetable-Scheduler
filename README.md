@@ -150,7 +150,7 @@ CREATE TABLE Leave_Request (...);
 - **Frontend:** React.js
 - **Backend:** Python (FastAPI)
 - **Database:** PostgreSQL
-- **API Testing:*VS Code and Render
+- **API Testing:**VS Code and Render
 
 ## 🚀 Live Project
 
